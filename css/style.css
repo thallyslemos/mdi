@@ -1,0 +1,16 @@
+header {
+    color: aliceblue;
+    background: black;
+    width: 100%;
+    height: 50px;
+}
+main {
+    width: auto;
+    height: 800px;
+}
+footer {
+    color: aliceblue;
+    background: black;
+    width: 100%;
+    height: 50px;
+}
