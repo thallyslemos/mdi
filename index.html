@@ -11,8 +11,25 @@
         <h2>Desenvolvido por: Thallys Viana Lemos e Pedro Lucas</h2>
     </header>
     <main>
-        <input id="conversor" name="conversor" type="number">
-        <button id="botao-calc" >Calcular</button>
+        <div class="entrada">
+            <label for="conversor">Conversor de Números Decimais </label>
+            <input id="conversor" name="conversor" type="number" placeholder="Insira um número Decimal">
+            <button id="botao-calc" >Converter</button>
+           
+        </div>
+        <div class="saida">
+            <table>
+                <th>Binário</th>
+                <th>Octal</th>
+                <th>Hexadecimal</th>
+                <tr>
+                    <td id="dec"></td>
+                    <td id="oct"></td>
+                    <td id="hex"></td>
+                </tr>
+                
+            </table>
+        </div>
         <script src="js/conversor-decimal.js"></script>
     </main>
     <footer>
